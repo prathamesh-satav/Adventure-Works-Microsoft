@@ -111,16 +111,6 @@ Based on the analysis of the `dim_products` dataset, the following conclusions w
     * Load the `dim_products` table.
     * Recreate the visuals listed in the "Dashboard Visuals" section above.
 
-  adventureworks-sql-powerbi-analysis/
-│
-├── README.md               <-- The cover letter (About the project)
-├── sql_scripts/            <-- FOLDER
-│   └── data_cleaning.sql   <-- YOUR SAVED FILE GOES HERE
-├── visuals/                <-- FOLDER
-│   └── dashboard_screenshot.png  <-- Screenshot of your Power BI dashboard
-└── datasets/               <-- FOLDER (Optional)
-    └── AdventureWorks_Sample.csv <-- A small sample (don't upload huge files)
-
 ## Future Improvements
 * **Sales Data Integration:** Connect to the SalesOrderDetail table to weigh profitability by actual sales volume, not just unit margin.
 * **Dynamic Restocking:** Create a Python script to automatically flag items that drop below `ReorderPoint`.
